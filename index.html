@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подмоков Андрій ІТ-94</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data" class="box">
+        <h1>Форма для заповнення</h1>
+        <div class="name">
+            <input type="text" placeholder="ПІБ" name="userName" required minlength="2" maxlength="99" class="first">
+        </div>
+        <div class="group">
+            <input type="text" placeholder="Група" name="userGroup" required class="first">
+        </div>
+        <div class="variant">
+            <input type="number" placeholder="Варіант" name="userVariant" required min="1" max="50" class="first">
+        </div>
+        <div class="phone">
+            <input type="tel" placeholder="Телефон (098-293-18-36)" name="userPhone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" class="first">
+        </div>
+        <div class="email">
+            <input type="email" placeholder="Пошта" name="userEmail" required class="first">
+        </div>
+
+        <div class="btn">
+            <button type="submit">Підтвердити</button>
+        </div>
+    </form>
+
+    <div class="message-container box">
+        <h1>Введені дані</h1>
+
+        <div>
+            <h2 class="result_name">ПІБ: </h2>
+        </div>
+        <div>
+            <h2 class="result_group">Група: </h2>
+        </div>
+        <div>
+            <h2 class="result_variant">Варіант: </h2>
+        </div>
+        <div>
+            <h2 class="result_phone">Телефон: </h2>
+        </div>
+        <div>
+            <h2 class="result_email">Пошта: </h2>
+        </div>
+
+        <div class="next_btn">
+            <button>Наступне завдання</button>
+        </div>
+    </div>
+
+
+    <!------- 2 ------->
+
+
+    <p>Створити таблицю розміром (6х6). Клітинки таблиці заповнюються послідовно номерами від 1 до 36 по рядках. При наведенні на клітинку - зміна кольору клітинок в вибраному рядку таблиці, починаючи з обраної, через одну, а при Click на ній - зміна кольору на обраний з палітри<br>Клітинка: <span>10</span></p>
+
+    <div class="map">
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+        <div class="map_cell"></div>
+    </div>
+
+    <div class="color_block">
+        <input type="color" value="#ffffff" class="input_color">
+        <button class="btn_color">ok</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
